@@ -27,7 +27,7 @@ def inputNumber(message):
             print("Not an integer! Try again.")
             continue
         else:
-            if userInput > 3:
+            if userInput >= 3:
                 if userInput < 17:
                     return userInput
                     break
